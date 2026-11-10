@@ -1,0 +1,75 @@
+{
+  "note": "真实接口适配配置。切换 TOOL_BACKEND=http 后生效；接口挂了会自动降级回 mock 并提示。",
+  "auth": {
+    "header": "Authorization",
+    "prefix": "Bearer "
+  },
+  "tools": {
+    "query_order": {
+      "method": "GET",
+      "path": "/orders",
+      "params": {"order_id": "order_id", "phone_last4": "phone_last4"},
+      "record_path": "$.data.orders[*]",
+      "fields": {
+        "order_id": "$.order_id",
+        "customer": "$.customer",
+        "phone_last4": "$.phone_last4",
+        "status": "$.status",
+        "status_code": "$.status_code",
+        "created_at": "$.created_at",
+        "paid_amount": "$.paid_amount",
+        "payment": "$.payment",
+        "items": "$.items[*]",
+        "address": "$.address",
+        "carrier": "$.carrier",
+        "tracking_no": "$.tracking_no",
+        "eta": "$.eta"
+      }
+    },
+    "query_logistics": {
+      "method": "GET",
+      "path": "/logistics",
+      "params": {"order_id": "order_id"},
+      "record_path": "$.data[*]",
+      "fields": {
+        "order_id": "$.order_id",
+        "carrier": "$.carrier",
+        "tracking_no": "$.tracking_no",
+        "current": "$.current",
+        "traces": "$.traces[*]"
+      }
+    },
+    "query_product": {
+      "method": "GET",
+      "path": "/products",
+      "params": {"keyword": "keyword", "product_id": "product_id"},
+      "record_path": "$.data.products[*]",
+      "fields": {
+        "product_id": "$.product_id",
+        "name": "$.name",
+        "price": "$.price",
+        "stock": "$.stock",
+        "specs": "$.specs",
+        "promo": "$.promo",
+        "shipping": "$.shipping",
+        "warranty": "$.warranty"
+      }
+    },
+    "query_after_sale": {
+      "method": "GET",
+      "path": "/after-sales",
+      "params": {"order_id": "order_id", "after_sale_id": "after_sale_id"},
+      "record_path": "$.data.records[*]",
+      "fields": {
+        "after_sale_id": "$.after_sale_id",
+        "order_id": "$.order_id",
+        "type": "$.type",
+        "reason": "$.reason",
+        "status": "$.status",
+        "created_at": "$.created_at",
+        "refund_amount": "$.refund_amount",
+        "timeline": "$.timeline[*]"
+      }
+    }
+  }
+}
