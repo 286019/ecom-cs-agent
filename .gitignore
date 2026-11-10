@@ -1,0 +1,40 @@
+# ---------------- Python ----------------
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# ---------------- 环境变量（绝不能提交） ----------------
+.env
+.env.local
+.env.*.local
+
+# ---------------- 日志与运行时文件 ----------------
+logs/
+*.log
+
+# ---------------- 本地数据 / 临时文件 ----------------
+data/
+*.db
+*.sqlite
+*.sqlite3
+*.tmp
+*.bak
+
+# ---------------- 评测大体积中间产物 ----------------
+eval/handoff_raw.json
+eval/handoff_raw_baseline.json
+eval/_tmp*
+
+# 截图仅本地留档，不进仓库（分发包里可按需单独提供）
+screenshots/
+
+# ---------------- 系统 / 编辑器 ----------------
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

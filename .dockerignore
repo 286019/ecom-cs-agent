@@ -1,0 +1,13 @@
+.git
+.gitignore
+.venv
+__pycache__
+*.pyc
+.env
+.env.local
+logs
+screenshots
+data
+eval/handoff_raw.json
+eval/handoff_raw_baseline.json
+*.zip
