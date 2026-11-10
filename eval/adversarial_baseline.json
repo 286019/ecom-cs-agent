@@ -1,0 +1,26 @@
+{
+  "label": "对抗集评测报告（优化前）",
+  "metrics": {
+    "total": 45,
+    "handoff": 10,
+    "handoff_rate": 0.2222222222222222,
+    "expected_handoff": 12,
+    "expected_self_service": 33,
+    "mis_handoff": 2,
+    "mis_handoff_rate": 0.06060606060606061,
+    "missed_handoff": 4,
+    "self_service": 24,
+    "self_service_rate": 0.5333333333333333,
+    "off_topic": 9,
+    "off_topic_rate": 0.2,
+    "out_of_kb": 7,
+    "hallucinated": 0,
+    "hallucination_rate": 0.0,
+    "avg_turns": 1.0,
+    "intent_accuracy": 0.7555555555555555,
+    "complaint_intent_hit": 2,
+    "complaint_branch_hit": 2,
+    "complaint_total": 5
+  },
+  "note": "优化前代码 + 对抗集 45 条（后修正 3 条期望：1 条参数事实、2 条纯闲聊允许拒绝）"
+}

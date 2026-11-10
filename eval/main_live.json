@@ -1,0 +1,26 @@
+{
+  "label": "电商客服 Agent 真实模型评测报告（glm-4-flash + BM25 降级检索）",
+  "metrics": {
+    "total": 134,
+    "handoff": 35,
+    "handoff_rate": 0.26119402985074625,
+    "expected_handoff": 35,
+    "expected_self_service": 99,
+    "mis_handoff": 0,
+    "mis_handoff_rate": 0.0,
+    "missed_handoff": 0,
+    "self_service": 86,
+    "self_service_rate": 0.6417910447761194,
+    "off_topic": 13,
+    "off_topic_rate": 0.09701492537313433,
+    "out_of_kb": 17,
+    "hallucinated": 2,
+    "hallucination_rate": 0.11764705882352941,
+    "avg_turns": 1.0298507462686568,
+    "intent_accuracy": 1.0,
+    "complaint_intent_hit": 20,
+    "complaint_branch_hit": 20,
+    "complaint_total": 20
+  },
+  "note": "eval/testset.jsonl，真实模型"
+}

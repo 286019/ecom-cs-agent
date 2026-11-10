@@ -1,0 +1,45 @@
+{"id": "adv-001", "category": "presale", "question": "那个能降噪的蓝牙而机 充一次电大概能听多久啊", "expect_intents": ["presale"], "expect_handoff": false, "expect_any": ["P1001", "小时", "续航"]}
+{"id": "adv-002", "category": "presale", "question": "AirSound Pro 现在卖多钱 还有现货没", "expect_intents": ["presale"], "expect_handoff": false, "expect_any": ["249", "现货", "库存"]}
+{"id": "adv-003", "category": "presale", "question": "我想买个能榨果汁的小杯子 多少钱", "expect_intents": ["presale"], "expect_handoff": false, "expect_any": ["P1002", "129"]}
+{"id": "adv-004", "category": "presale", "question": "手坏能测血痒不", "expect_intents": ["presale"], "expect_handoff": false, "expect_any": ["血氧", "P1003"]}
+{"id": "adv-005", "category": "presale", "question": "你们那个保温杯 500毫升的 保问效果怎么样", "expect_intents": ["presale"], "expect_handoff": false, "expect_any": ["保温", "小时"]}
+{"id": "adv-006", "category": "presale", "question": "杯子的内胆是什么钢材做的", "expect_intents": ["presale"], "expect_handoff": false, "expect_any": ["316", "不锈钢"]}
+{"id": "adv-007", "category": "presale", "question": "P1001 这款耳机有几种颜色", "expect_intents": ["presale"], "expect_handoff": false, "expect_any": ["颜色", "曜石黑", "云雾白"]}
+{"id": "adv-008", "category": "presale", "question": "手环游泳能戴吗", "expect_intents": ["presale"], "expect_handoff": false, "expect_any": ["防水", "5ATM"]}
+{"id": "adv-009", "category": "presale", "question": "榨汁杯能放进洗碗机洗吗", "expect_intents": ["presale"], "expect_handoff": false, "expect_any": ["未标注", "人工"]}
+{"id": "adv-010", "category": "presale", "question": "耳机跟我的苹果手机能配对上吗", "expect_intents": ["presale"], "expect_handoff": false, "expect_any": ["未标注", "人工"]}
+{"id": "adv-011", "category": "logistics", "question": "我前两天买的那个东西现在到哪儿了 单号是EC20241108001", "expect_intents": ["order_logistics"], "expect_handoff": false, "expect_any": ["EC20241108001", "运输", "已发货"]}
+{"id": "adv-012", "category": "logistics", "question": "EC20241106003 这个单子咋一直不动啊 是不是忘了发", "expect_intents": ["order_logistics"], "expect_handoff": false, "expect_any": ["待发货"]}
+{"id": "adv-013", "category": "logistics", "question": "手机尾号882l的订单帮我看看", "expect_intents": ["order_logistics"], "expect_handoff": false, "expect_any": ["EC202411", "订单号"]}
+{"id": "adv-014", "category": "logistics", "question": "快递到深圳了没有 EC20241107002", "expect_intents": ["order_logistics"], "expect_handoff": false, "expect_any": ["已签收"]}
+{"id": "adv-015", "category": "logistics", "question": "我的包裹 EC20241108001 发的哪家快递啊", "expect_intents": ["order_logistics"], "expect_handoff": false, "expect_any": ["顺丰"]}
+{"id": "adv-016", "category": "logistics", "question": "EC20241108001 这个订单我付了多少钱", "expect_intents": ["order_logistics"], "expect_handoff": false, "expect_any": ["249"]}
+{"id": "adv-017", "category": "logistics", "question": "帮我康康 EC20241105004 买了啥", "expect_intents": ["order_logistics"], "expect_handoff": false, "expect_any": ["保温杯"]}
+{"id": "adv-018", "category": "logistics", "question": "订单EC20241106003预计啥时候能送到", "expect_intents": ["order_logistics"], "expect_handoff": false, "expect_any": ["预计", "发货"]}
+{"id": "adv-019", "category": "logistics", "question": "我手机尾号8890 有个订单 现在啥状态", "expect_intents": ["order_logistics"], "expect_handoff": false, "expect_any": ["EC20241105004", "已完成"]}
+{"id": "adv-020", "category": "logistics", "question": "EC20241107002 快递单号多少", "expect_intents": ["order_logistics"], "expect_handoff": false, "expect_any": ["ZT7788990011223"]}
+{"id": "adv-021", "category": "aftersale", "question": "七天无理由的话 我拆开试用了还能退不", "expect_intents": ["policy"], "expect_handoff": false, "expect_any": ["7 天", "无理由", "退货"]}
+{"id": "adv-022", "category": "aftersale", "question": "退回去的邮费是你们出还是我出", "expect_intents": ["policy"], "expect_handoff": false, "expect_any": ["运费", "买家", "商家"]}
+{"id": "adv-023", "category": "aftersale", "question": "我要退钱 订单EC20241105004 盖子刮花了", "expect_intents": ["after_sale"], "expect_handoff": false, "expect_any": ["售后单", "退货退款"]}
+{"id": "adv-024", "category": "aftersale", "question": "退款一般几天能回到我卡里", "expect_intents": ["policy"], "expect_handoff": false, "expect_any": ["到账", "工作日"]}
+{"id": "adv-025", "category": "aftersale", "question": "发票能开成公司抬头吗", "expect_intents": ["policy"], "expect_handoff": false, "expect_any": ["发票", "专票", "增值税"]}
+{"id": "adv-026", "category": "aftersale", "question": "这个耳机保修几年啊", "expect_intents": ["policy", "presale"], "expect_handoff": false, "expect_any": ["保修", "年"]}
+{"id": "adv-027", "category": "aftersale", "question": "换货的话要怎么弄 包装要留着吗", "expect_intents": ["policy", "after_sale"], "expect_handoff": false, "expect_any": ["换货", "包装"]}
+{"id": "adv-028", "category": "aftersale", "question": "我不想要了 订单EC20241108001 帮我退了吧", "expect_intents": ["after_sale"], "expect_handoff": false, "expect_any": ["售后单", "退款"]}
+{"id": "adv-029", "category": "aftersale", "question": "售后进度在哪看 订单EC20241107002", "expect_intents": ["after_sale", "policy"], "expect_handoff": false, "expect_any": ["AS20241107001", "进度"]}
+{"id": "adv-030", "category": "aftersale", "question": "质量问题退货运费谁掏", "expect_intents": ["policy"], "expect_handoff": false, "expect_any": ["质量问题", "商家"]}
+{"id": "adv-031", "category": "complaint", "question": "你们这服务真是绝了 我要找你们管事的人", "expect_intents": ["complaint"], "expect_handoff": true, "expect_any": []}
+{"id": "adv-032", "category": "complaint", "question": "再不给我处理 我就去12315告你们", "expect_intents": ["complaint"], "expect_handoff": true, "expect_any": []}
+{"id": "adv-033", "category": "complaint", "question": "东西差点电到我 必须给个说法", "expect_intents": ["complaint"], "expect_handoff": true, "expect_any": []}
+{"id": "adv-034", "category": "complaint", "question": "你们是不是骗子啊 一直不解决", "expect_intents": ["complaint"], "expect_handoff": true, "expect_any": []}
+{"id": "adv-035", "category": "complaint", "question": "我要曝光到小红书上 让大家避雷", "expect_intents": ["complaint"], "expect_handoff": true, "expect_any": []}
+{"id": "adv-036", "category": "out_of_kb", "question": "你们老板开什么车", "expect_intents": ["chitchat", "complaint", "policy", "presale"], "expect_handoff": true, "expect_any": []}
+{"id": "adv-037", "category": "out_of_kb", "question": "帮我算一卦 看看我今年财运", "expect_intents": ["chitchat"], "expect_handoff": false, "expect_any": ["不在我的服务范围"]}
+{"id": "adv-038", "category": "out_of_kb", "question": "帮我写一份周报", "expect_intents": ["chitchat"], "expect_handoff": false, "expect_any": ["不在我的服务范围"]}
+{"id": "adv-039", "category": "out_of_kb", "question": "你们公司去年融资了多少钱", "expect_intents": ["chitchat", "complaint", "policy", "presale"], "expect_handoff": true, "expect_any": []}
+{"id": "adv-040", "category": "out_of_kb", "question": "竞争对手的财报怎么样", "expect_intents": ["chitchat", "complaint", "policy", "presale"], "expect_handoff": true, "expect_any": []}
+{"id": "adv-041", "category": "out_of_kb", "question": "你们公司有食堂吗", "expect_intents": ["chitchat", "complaint", "policy", "presale"], "expect_handoff": true, "expect_any": []}
+{"id": "adv-042", "category": "aftersale", "question": "我那个订单 EC20241108001 耳机左边没声音 能换吗 还是要退", "expect_intents": ["after_sale"], "expect_handoff": false, "expect_any": ["售后单", "换货"]}
+{"id": "adv-043", "category": "logistics", "question": "快递 EC20241106003 三天没动了 你们能不能催一下", "expect_intents": ["order_logistics"], "expect_handoff": false, "expect_any": ["待发货", "发货"]}
+{"id": "adv-044", "category": "aftersale", "question": "我要退货 但是包装扔了 还能退吗", "expect_intents": ["policy", "after_sale"], "expect_handoff": false, "expect_any": ["包装", "无理由", "退货"]}
+{"id": "adv-045", "category": "out_of_kb", "question": "你们支持比特币付款吗", "expect_intents": ["chitchat", "complaint", "policy", "presale"], "expect_handoff": true, "expect_any": []}

@@ -1,0 +1,26 @@
+{
+  "label": "主测试集评测报告（优化前）",
+  "metrics": {
+    "total": 134,
+    "handoff": 44,
+    "handoff_rate": 0.3283582089552239,
+    "expected_handoff": 44,
+    "expected_self_service": 90,
+    "mis_handoff": 0,
+    "mis_handoff_rate": 0.0,
+    "missed_handoff": 0,
+    "self_service": 90,
+    "self_service_rate": 0.6716417910447762,
+    "off_topic": 0,
+    "off_topic_rate": 0.0,
+    "out_of_kb": 26,
+    "hallucinated": 0,
+    "hallucination_rate": 0.0,
+    "avg_turns": 1.0298507462686568,
+    "intent_accuracy": 0.917910447761194,
+    "complaint_intent_hit": 11,
+    "complaint_branch_hit": 11,
+    "complaint_total": 20
+  },
+  "note": "优化前代码 + 旧 134 条期望（9 条高频问题当时按应转人工计）"
+}

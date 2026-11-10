@@ -1,0 +1,26 @@
+{
+  "label": "对抗集真实模型评测 V2（glm-4-flash + BM25，未标注即拒答约束）",
+  "metrics": {
+    "total": 45,
+    "handoff": 10,
+    "handoff_rate": 0.2222222222222222,
+    "expected_handoff": 10,
+    "expected_self_service": 35,
+    "mis_handoff": 0,
+    "mis_handoff_rate": 0.0,
+    "missed_handoff": 0,
+    "self_service": 33,
+    "self_service_rate": 0.7333333333333333,
+    "off_topic": 2,
+    "off_topic_rate": 0.044444444444444446,
+    "out_of_kb": 7,
+    "hallucinated": 2,
+    "hallucination_rate": 0.2857142857142857,
+    "avg_turns": 1.0,
+    "intent_accuracy": 1.0,
+    "complaint_intent_hit": 5,
+    "complaint_branch_hit": 5,
+    "complaint_total": 5
+  },
+  "note": "eval/adversarial.jsonl，真实模型"
+}

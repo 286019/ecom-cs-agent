@@ -1,0 +1,26 @@
+{
+  "label": "对抗集评测报告（检索鲁棒性）",
+  "metrics": {
+    "total": 45,
+    "handoff": 10,
+    "handoff_rate": 0.2222222222222222,
+    "expected_handoff": 10,
+    "expected_self_service": 35,
+    "mis_handoff": 0,
+    "mis_handoff_rate": 0.0,
+    "missed_handoff": 0,
+    "self_service": 35,
+    "self_service_rate": 0.7777777777777778,
+    "off_topic": 0,
+    "off_topic_rate": 0.0,
+    "out_of_kb": 7,
+    "hallucinated": 0,
+    "hallucination_rate": 0.0,
+    "avg_turns": 1.0,
+    "intent_accuracy": 1.0,
+    "complaint_intent_hit": 5,
+    "complaint_branch_hit": 5,
+    "complaint_total": 5
+  },
+  "note": "eval\\adversarial.jsonl，演示模式"
+}
